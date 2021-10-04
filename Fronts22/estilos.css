@@ -1,0 +1,48 @@
+.titulo{ 
+    color:#ac4392;
+    text-align: center;
+}
+#subtitulo{ 
+    text-align: center;
+    font-size: 12px;
+}
+body{
+    background-color: #ac4392;
+}
+form{
+    background-color: white;
+    width: 30%;
+    margin: 30px auto;
+    font-family: Arial, Helvetica, sans-serif; 
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+}
+strong{
+    color: #ac4392;
+}
+.inputs{
+    width: 80%;
+    margin: 10px auto;
+    
+}
+label{
+    display: block;
+}
+input, textarea {
+    width: 100%;
+    border: 1px solid #ac4392;
+    border-radius: 4px;
+    height: 30px;
+}
+textarea{
+    height: 60px;
+}
+button{
+    width: 100%;
+    margin: auto;
+    background-color: #ac4392;
+    border: 1px solid #ac4392;
+    border-radius: 4px;
+    height: 35px;
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">  <!-- idioma -->
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Aplicacion S22</title>
+    </head>
+    <body>  <!-- etiquetas para maquetar la aplicacion -->
+
+        <h1>Hola Mundo!</h1> <!-- crea título etiqueta h1, hasta h6 -->
+        <h2>Hola Mundo!</h2> 
+        <h3>Hola Mundo!</h3> 
+        <h4>Hola Mundo!</h4> 
+        <h5>Hola Mundo!</h5> 
+        <h6>Hola Mundo!</h6> 
+
+        <p> Este es un parrafo </p>  <!-- crea un párrafo -->
+
+        <!-- Hay etiquetas que crean sin necesidad de cerrar como el hr, que coloca una línea para separar un texto de otro ó una sección de otra -->
+        <hr /> 
+
+        <p> Este es otro parrafo  <strong>Coloca texto en negrita </strong> </p>  <!-- crea un párrafo -->
+
+        <!-- Para hacer listas en html se usa ul (lista que no necesita ningún orden, como un punto) y con li se lista cada item -->
+        <ul>
+            <li>Nombre: Kata</li>
+            <li>Nombre: Kata</li>
+            <li>Nombre: Kata</li>
+        </ul>
+
+        <p> Con ol hace listas ordenadas </p>  <!-- crea un párrafo -->
+        <ol>
+            <li>Nombre: Kata</li>
+            <li>Nombre: Kata</li>
+            <li>Nombre: Kata</li>
+        </ol>
+
+        <!-- Para hacer un hipervinculo se hace con a  -->
+        <a href="https://www.google.com/">Ir a google</a><br/>
+
+        <img src="https://s3-eu-west-1.amazonaws.com/s1.thingpic.com/images/62/jSPBFdGy4bhnTYbABbEcyFoi.jpeg"/>   <!-- Se puede usar una imagen de una url -->
+        <hr /> 
+
+        <form>
+            Formularios
+            Se ponen cajas para el input
+            <label>Nombre</label>
+            <input type="text" /> <br/>
+            <label>Apellido</label>
+            <input type="text" />
+            <label>Contraseña</label>
+            <input type="password"/>
+
+            <label for="comer">Comer</label>
+            <input type="radio" id="comer"/>
+
+            <label for="jugar">Jugar</label>
+            <input type="radio" id="jugar"/>
+
+            <label for="dormir">Dormir</label>
+            <input type="radio" id="dormir"/>
+
+            <input type="checkbox"/>
+            <label>Cantar</label>
+
+            <input type="checkbox"/>
+            <label>Pelear</label>
+
+            <select>
+                <option>Perro</option>
+                <option>Gato</option>
+                <option>Caballo</option>
+            </select>
+            <button onclick="alert('Hola')">Enviar datos</button>  este es el boton para enviar los datos al java
+        </form>
+
+
+    </body>
+</html>
